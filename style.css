@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color: #333;
+    padding: 10px 0;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#hero{
+    background-color: #4CAF50;
+    color: white;
+     text-align: center;
+     padding: 100px 20px;
+}
+#hero h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+#hero p{
+    font-size: 1.2em;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+#About{
+    background-color: rgb(111, 194, 166);
+}
+#Skills{
+    background-color: #f9b1f1e8;
+}
+#skills ul {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    
+}
+#skills ul li {
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: none;
+}
+#Education{
+    background-color: rgba(252, 185, 76, 0.841);
+}
+#Education ul{
+    list-style-type: none;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+#Education ul li{
+    margin:10px 0 ;
+}
+#Contact form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#Contact label{
+    margin-bottom: 5px;
+}
+#Contact input,#Contact textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#Contact button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#Contact button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#ulist {
+    list-style-type: none;
+}
